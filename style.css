@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#meme-image-container {
+  margin-top: 10px;
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+/*   background-image: url('/meme1.jpg');
+ */  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+#meme-text {
+  font-size: 30px;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
