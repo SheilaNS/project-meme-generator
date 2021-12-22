@@ -1,11 +1,42 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: Bangers, cursive;
+}
+
+header {
+  height: 100px;
+}
+
+h1 {
+  margin: 10px;
+  padding: 20px;
+}
+
+p {
+  display: inline-block;
+}
+
+div {
+  margin: 10px;
+}
+
+button {
+  width: 50px;
+  height: 25px;
+  border-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#text-input {
+  height: 15px;
+  width: 270px;
 }
 
 #meme-image-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px auto;
   width: 450px;
   height: 300px;
   border: 1px solid black;
@@ -27,26 +58,20 @@
 }
 
 #meme-image {
-  position: absolute;
+  position: relative;
   z-index: 2;
 }
 
 #fire {
-  margin: 10px;
   background-color: red;
-  width: 50px;
 }
 
 #water {
-  margin: 10px;
   background-color: blue;
-  width: 50px;
 }
 
 #earth {
-  margin: 10px;
   background-color: green;
-  width: 50px;
 }
 
 #meme-1 {

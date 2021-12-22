@@ -1,8 +1,6 @@
 const inputTexto = document.getElementById('text-input'); // input
 const memeContainer = document.getElementById('meme-image-container'); // meme-div
 const memeText = document.getElementById('meme-text'); // meme-text-div
-// const memeImageBorder = document.getElementById('meme-image'); // img meme-image
-// const inputImage = document.getElementById('meme-insert'); // input file
 const fireButton = document.getElementById('fire'); // botão fogo
 const waterButton = document.getElementById('water'); // botão água
 const earthButton = document.getElementById('earth'); // botão terra

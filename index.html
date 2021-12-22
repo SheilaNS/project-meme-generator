@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Projeto Meme Generator</title>
 </head>
 <body>
-    <p>Texto: </p>
-    <input type="text" id="text-input" maxlength="60">
-    <p>Imagem: </p>
-    <input type="file" id="meme-insert" accept="images/*" onchange="addImage(event)">
+    <header>
+        <h1>Meme Generator</h1>
+    </header>
+    <div id="text-menu">
+        <p>Texto: </p>
+        <input type="text" id="text-input" maxlength="60" placeholder="Coloque seu texto aqui">
+    </div>
+    <div id="upload-menu">
+        <p>Imagem: </p>
+        <input type="file" id="meme-insert" accept="images/*" onchange="addImage(event)">
+    </div>
     <div id="meme-image-container">
         <img id="meme-image" width="450px" height="300px"></img>
         <p id="meme-text"></p>
