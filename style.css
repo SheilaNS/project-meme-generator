@@ -35,6 +35,7 @@ button {
   width: 270px;
 }
 
+/* Requisito 03 */
 #meme-image-container {
   margin: 10px auto;
   width: 450px;
@@ -46,6 +47,7 @@ button {
   z-index: 1;
 }
 
+/* Requisito 04 */
 #meme-text {
   font-size: 30px;
   position: absolute;
