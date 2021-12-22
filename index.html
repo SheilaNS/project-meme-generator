@@ -10,10 +10,13 @@
 <body>
     <p>Texto: </p>
     <input type="text" id="text-input">
+    <p>Imagem: </p>
+    <input type="file" id="meme-insert" accept="images/*" onchange="addImage(event)">
     <div id="meme-image-container">
+        <img id="meme-image" width="450px" height="300px"></img>
         <p id="meme-text"></p>
     </div>
-
+<!-- OBS: accept="images/*" recebe qualquer tipo de arquivo de imagem -->
     <script src="script.js"></script>
 </body>
 </html>
