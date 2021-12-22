@@ -29,3 +29,15 @@
   position: absolute;
   z-index: 2;
 }
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
