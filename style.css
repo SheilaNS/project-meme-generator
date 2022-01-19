@@ -54,7 +54,7 @@ button {
   z-index: 3;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50% , -50%);
   text-shadow: 5px 5px 5px black;
   color: white;
 }
