@@ -53,7 +53,7 @@ function addMeme1() {
   };
 }
 function addMeme2() {
-  memeImage.src = 'imgs/meme2.png';
+  memeImage.src = './imgs/meme2.png';
   memeImage.onload = () => {
     (URL.revokeObjectURL(memeImage.src));
   };
