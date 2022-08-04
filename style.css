@@ -81,7 +81,7 @@ button {
   height: 80px;
   border: 1px solid black;
   display: inline-block;
-  background-image: url('/imgs/meme1.png');
+  background-image: url('imgs/meme1.png');
   background-size: cover;
 }
 
@@ -90,7 +90,7 @@ button {
   height: 80px;
   border: 1px solid black;
   display: inline-block;
-  background-image: url('/imgs/meme2.png');
+  background-image: url('imgs/meme2.png');
   background-size: cover;
 }
 
@@ -99,7 +99,7 @@ button {
   height: 80px;
   border: 1px solid black;
   display: inline-block;
-  background-image: url('/imgs/meme3.png');
+  background-image: url('imgs/meme3.png');
   background-size: cover;
 }
 
@@ -108,6 +108,6 @@ button {
   height: 80px;
   border: 1px solid black;
   display: inline-block;
-  background-image: url('/imgs/meme4.png');
+  background-image: url('imgs/meme4.png');
   background-size: cover;
 }
