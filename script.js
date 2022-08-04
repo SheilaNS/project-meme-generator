@@ -47,25 +47,25 @@ earthButton.addEventListener('click', addEarthBorder);
 
 // Requisito 07
 function addMeme1() {
-  memeImage.src = '/imgs/meme1.png';
+  memeImage.src = 'imgs/meme1.png';
   memeImage.onload = () => {
     (URL.revokeObjectURL(memeImage.src));
   };
 }
 function addMeme2() {
-  memeImage.src = './imgs/meme2.png';
+  memeImage.src = 'imgs/meme2.png';
   memeImage.onload = () => {
     (URL.revokeObjectURL(memeImage.src));
   };
 }
 function addMeme3() {
-  memeImage.src = '/imgs/meme3.png';
+  memeImage.src = 'imgs/meme3.png';
   memeImage.onload = () => {
     (URL.revokeObjectURL(memeImage.src));
   };
 }
 function addMeme4() {
-  memeImage.src = '/imgs/meme4.png';
+  memeImage.src = 'imgs/meme4.png';
   memeImage.onload = () => {
     (URL.revokeObjectURL(memeImage.src));
   };
