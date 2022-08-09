@@ -11,7 +11,7 @@ Requisitos feitos: 7
 ## :computer: Habilidades desenvolvidas
 
 - Manipular o DOM.
-- Manipular o JavaScript: gerenciar eventos, criar funções e definir fluxos lógicos.
+- Manipular o JavaScript: fazer upload de imagens, gerenciar eventos, criar funções e definir fluxos lógicos.
 - Manipular HTML5 e CSS.
 
 ## :speaking_head: Linguagens utilizadas
